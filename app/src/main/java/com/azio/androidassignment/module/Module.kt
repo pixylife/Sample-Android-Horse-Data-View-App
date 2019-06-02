@@ -1,5 +1,9 @@
 package com.azio.androidassignment.module
 
+import com.azio.androidassignment.model.data_source.HorseDataSourceImpl
+import com.azio.androidassignment.network.APIInterface
+import com.azio.androidassignment.util.ServiceGenerator
+import org.koin.android.ext.koin.androidContext
 import org.koin.dsl.module.module
 
 /**
@@ -7,6 +11,8 @@ import org.koin.dsl.module.module
 */
 val DataModule = module {
 
+    single ("apiInterface") {  ServiceGenerator.getClient()!!.create(APIInterface::class.java)}
+    single ("horseDataSource"){ HorseDataSourceImpl(androidContext(),get("apiInterface")) }
 }
 
 /**

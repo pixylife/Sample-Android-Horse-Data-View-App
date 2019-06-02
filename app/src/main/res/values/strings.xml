@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Android Assignment</string>
+    <string name="tv_label_horseName">Horse Name</string>
+    <string name="tv_label_age">Age</string>
+    <string name="tv_label_country">Country</string>
+    <string name="tv_label_sex">Sex</string>
+    <string name="tv_label_horseColor">Color</string>
+    <string name="tv_label_horseProfile">Horse Profile</string>
+    <string name="tv_label_Trainer">Trainer</string>
+    <string name="tv_label_currentOwner">Current Owner</string>
+    <string name="btn_label_moreInfo"><![CDATA[more info >>]]></string>
+    <string name="tv_label_winAndPlaces">Wins and Places</string>
+    <string name="tv_label_starts">Starts</string>
+    <string name="tv_label_firsts">First Places</string>
+    <string name="tv_label_secondPlaces">Second Places</string>
+    <string name="tv_label_thirdPlaces">Third Places</string>
+    <string name="tv_label_noPlaces">No Places</string>
+    <string name="tv_label_winRate">Win Rate</string>
+    <string name="tv_label_placeRate">Place Rate</string>
+    <string name="tv_label_priceWon">Price Won</string>
 </resources>

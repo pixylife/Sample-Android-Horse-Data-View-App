@@ -1,3 +1,5 @@
+
+
 *.iml
 .gradle
 /local.properties
@@ -9,5 +11,7 @@
 /.idea/assetWizardSettings.xml
 .DS_Store
 /build
-/captures
-.externalNativeBuild
+gradlew
+gradlew.*
+gradle.*
+app/libs/

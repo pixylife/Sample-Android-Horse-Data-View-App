@@ -1,6 +1,6 @@
 package com.azio.androidassignment.model
 
-data class Hourse(
+data class Horse(
     val HUniqueID: Long? = 0,
     val HHorse: String? = null,
     val HYearBorn: String? = null,
